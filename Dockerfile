@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY package.json .
 
-RUN yarn.lock .
+COPY yarn.lock .
 
 COPY . .
 
